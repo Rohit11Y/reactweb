@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <title>Search Barcode</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" rel="stylesheet">
+        <link href="./css/style.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="jquery.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar ">
+            <div class="navbar-header">
+               
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="true" aria-label="Toggle navigation" id="burgermenu">
+                    <i class="fas fa-bars fa-fw"></i>
+                </button>
+                <a class="navbar-brand">EarthWarm</a>
+             </div>
+             <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="dropdown" id="dropitem">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                          <ul class="dropdown-menu" id="dropmenu">
+                            <li><a href="#">Management</a></li>
+                            <li><a href="#">Spport</a></li>
+                            <li><a href="#">Notification</a></li>
+                          </ul>
+                    </li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+             </div>
+        </nav>
+
+        <section class="content" id="content-txt">
+            <div class="row">
+                <div class="col-md-6" id="col-area">
+                    <p class="mt-5" id="para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+                <div class="col-md-6 text-center vertical-center" id="btn-para">
+                    <button type="button" class="btn-primary btn" id="animate" onclick="createLink()">Animation</button>
+                    <img src="./img/giphy.gif" class="mt-5 rounded-circle" />
+                    <p id="repeat-txt"></p>
+                </div>
+            </div>
+           
+        </section>
+        
+
+    </body>
+</html>

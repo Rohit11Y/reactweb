@@ -1,0 +1,34 @@
+.content .row #btn-para{
+    height: 320px;
+    padding-top: 8%;
+}
+nav{
+    background-color: #5dbcc2;
+    -webkit-box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 5px rgb(0 0 0 / 8%);
+    box-shadow: inset 0 1px 0 rgb(255 255 255 / 15%), 0 1px 5px rgb(0 0 0 / 8%);
+    border-color: #e7e7e7;
+    border-radius: 0px !important;
+    margin-bottom: 0px !important;
+}
+#para{
+    font-size: 20px;
+    margin: 14% 8%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#btn-para img{
+    border-radius: 50%;
+    height: 45px;
+    width: 7%;
+}
+@media only screen and (max-width: 600px) {
+
+    #content-txt{
+        height: auto !important;
+    }
+    #btn-para img {
+        border-radius: 50%;
+        height: 45px;
+        width: 11% !important;
+    }
+
+}
